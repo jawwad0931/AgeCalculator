@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #23f6c8, #33b7ed); /* Linear gradient background */
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  input {
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px; /* Rounded border */
+    width: 270px; /* Adjust the width as needed */
+    box-sizing: border-box; /* Include padding and border in the total width */
+    margin-right: 10px;
+  }
+  button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background: linear-gradient(45deg, #4caf50, #45a049); /* Linear gradient */
+    color: #fff;
+    border: none;
+    border-radius: 5px; /* Rounded border */
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: linear-gradient(45deg, #45a049, #4caf50); /* Gradient color on hover */
+  }
+  
+  
+  h2 {
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  /* Center the content on the page */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .heade{
+    width: 100%;
+
+  }
+
+  #result{
+    font-weight: lighter;
+    margin: 10px 20px;
+    color: white;
+
+  }
+  
